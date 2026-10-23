@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Benchmark output (generated locally, never committed)
+benchmarks/results/
+
+# Local-only planning file (kept out of the public repo on purpose)
+CODEX_GOAL.md
